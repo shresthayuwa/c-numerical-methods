@@ -16,7 +16,7 @@ void main()
 	temp2=f(b);
 	if(temp1*temp2>0)
 	{
-		printf("wrong guess please choose another values: %f",temp1*temp2);
+		printf("wrong guess: %f",temp1*temp2);
 		fflush(stdin);
 		goto main;
 	}
