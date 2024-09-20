@@ -21,10 +21,10 @@ void main()
 		goto main;
 	}
 	do{
-		printf("\n\nstep\t\ta\t\tb\t\tf(a)\t\tf(b)\t\tc\t\tf(c)\n");
+		printf("\n\nStep\t\ta\t\tb\t\tf(a)\t\tf(b)\t\tc\t\tf(c)\n");
 		c=(a*temp2-temp1*b)/(temp2-temp1);
 		fc=f(c);
-		printf("%d\t\t%f\t\t%f\t\t%f\t\t%f\t\t%f\t\t%f\n",it,a,b,temp1,temp2,c,fc);
+		printf("%d\t\t%f\t%f\t%f\t%f\t%f\t%f\n",it,a,b,temp1,temp2,c,fc);
 		if (fc * temp1 < 0) {
 			b = c;
 			temp2 = fc;
